@@ -88,14 +88,14 @@ namespace PPB_Storage_API.Controllers
             DateTime FHOD = DateTime.Today;
             DateTime LHOD = DateTime.Today.AddHours(23).AddMinutes(59).AddSeconds(59);
 
-            int c = _context.Commands.Where(a => a.Date >= FHOD && a.Date <= LHOD && a.Delivered == false).Count();
+            int c = _context.Commands.Where(a => a.Date >= FHOD && a.Date <= LHOD).Count();
 
             if (c == 0)
             {
                 return cNull;
             }
 
-            return _context.Commands.Where(a => a.Date >= FHOD && a.Date <= LHOD && a.Delivered == false).OrderByDescending(a => a.Number).First();
+            return _context.Commands.Where(a => a.Date >= FHOD && a.Date <= LHOD).OrderByDescending(a => a.Number).First();
         }
 
         // GET: api/Commands/5

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cv\\source\\repos\\PPB_Storage_API\\PPB_Storage_API\\PPB_Storage_API.csproj": {}
+    "C:\\Users\\cv\\Source\\Repos\\PPB_API\\PPB_Storage_API\\PPB_Storage_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cv\\source\\repos\\PPB_Storage_API\\PPB_Storage_API\\PPB_Storage_API.csproj": {
+    "C:\\Users\\cv\\Source\\Repos\\PPB_API\\PPB_Storage_API\\PPB_Storage_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cv\\source\\repos\\PPB_Storage_API\\PPB_Storage_API\\PPB_Storage_API.csproj",
+        "projectUniqueName": "C:\\Users\\cv\\Source\\Repos\\PPB_API\\PPB_Storage_API\\PPB_Storage_API.csproj",
         "projectName": "PPB_Storage_API",
-        "projectPath": "C:\\Users\\cv\\source\\repos\\PPB_Storage_API\\PPB_Storage_API\\PPB_Storage_API.csproj",
+        "projectPath": "C:\\Users\\cv\\Source\\Repos\\PPB_API\\PPB_Storage_API\\PPB_Storage_API.csproj",
         "packagesPath": "C:\\Users\\cv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cv\\source\\repos\\PPB_Storage_API\\PPB_Storage_API\\obj\\",
+        "outputPath": "C:\\Users\\cv\\Source\\Repos\\PPB_API\\PPB_Storage_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cv\\AppData\\Roaming\\NuGet\\NuGet.Config",
